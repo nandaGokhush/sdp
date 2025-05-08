@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be The Change - CareNest</title>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Superfish -->
+    <link rel="stylesheet" href="css/superfish.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+<header id="fh5co-header-section" class="sticky-banner">
+    <div class="container">
+        <div class="nav-header">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+            <h1 id="fh5co-logo"><a href="index.html">CareNest</a></h1>
+            <nav id="fh5co-menu-wrap" role="navigation">
+                <ul class="sf-menu" id="fh5co-primary-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Be The Change.html">About</a></li>
+<li class="active"><a href="projects.html">Projects</a></li>
+
+                    <li><a href="about.html">Be The Change</a></li>
+                    <li><a href="Join us.html">Join us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .orphanage-card {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .orphanage-card img {
+        border-radius: 12px;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    .orphanage-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .rating {
+        background-color: #28a745;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 5px;
+        font-size: 0.875rem;
+    }
+
+    .btn-sm {
+        font-size: 0.875rem;
+    }
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamify Your Giving</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #343a40;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+      color: #495057;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      background-color: #28a745;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #218838;
+      transform: scale(1.05);
+    }
+
+    .btn-secondary {
+      background-color: #007bff;
+    }
+
+    .btn-secondary:hover {
+      background-color: #0056b3;
+    }
+
+    /* Header Section */
+    header {
+      background: #28a745;
+      color: white;
+      text-align: center;
+      padding: 80px 0;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    /* Progress Bar */
+    .progress-bar {
+      background-color: #ddd;
+      border-radius: 25px;
+      height: 30px;
+      margin-bottom: 30px;
+      overflow: hidden;
+    }
+
+    .progress {
+      background-color: #28a745;
+      height: 100%;
+      width: 0%;
+      border-radius: 25px;
+      transition: width 1s ease;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.2em;
+      margin-bottom: 25px;
+    }
+
+    section p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    /* Card Layout for Achievements */
+    #achievements ul {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding-left: 0;
+    }
+
+    #achievements li {
+      background-color: #ffffff;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      width: 30%;
+      text-align: center;
+      margin: 15px 0;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    #achievements li:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Leaderboard Styles */
+    #leaderboard ol {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+
+    #leaderboard li {
+      background-color: #f1f1f1;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+      width: 80%;
+      margin: 15px 0;
+      padding: 15px;
+      font-size: 1.2em;
+      color: #333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Footer Section */
+    footer {
+      text-align: center;
+      background: #343a40;
+      color: white;
+      padding: 30px 0;
+      font-size: 1.1em;
+    }
+
+    /* New Success Message */
+    .success-message {
+      background-color: #28a745;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 8px;
+      display: none;
+      font-size: 1.2em;
+    }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+      }
+
+      #achievements li {
+        width: 100%;
+      }
+
+      #leaderboard li {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Gamify Your Giving - Earn Rewards for Supporting Orphanages!</h1>
+            <span><button class="btn btn-success" onclick="openRazorpay()">Donate</button>
+
+    </div>
+  </header>
+
+  
+  <!-- Achievements Section -->
+  <section id="achievements">
+    <div class="container">
+      <h2>Achievements</h2>
+      <ul>
+        <li>
+          <h3>🎉 Generous Giver</h3>
+          <p>Donate for the first time (50 points)</p>
+        </li>
+        <li>
+          <h3>🏆 Hero of the Month</h3>
+          <p>Be in the top 10 donors (200 points)</p>
+        </li>
+        <li>
+          <h3>📱 Social Advocate</h3>
+          <p>Share with 10 friends (100 points)</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Leaderboard Section -->
+  <section id="leaderboard">
+    <div class="container">
+      <h2>Leaderboard</h2>
+      <ol>
+        <li>
+          <span>Anish varma</span> 
+          <span>500 points</span>
+        </li>
+        <li>
+          <span>Trishaa</span> 
+          <span>450 points</span>
+        </li>
+        <li>
+          <span>Hindhuja</span> 
+          <span>400 points</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Daily Challenge Section -->
+  <section id="daily-challenge">
+    <div class="container">
+      <h2>Daily Challenge</h2>
+      <p>Donate ₹100 today to any orphanage and earn 20 bonus points!</p>
+      <a href="#challenge" class="btn btn-secondary" id="challenge-btn">Complete Challenge</a>
+    </div>
+    <div class="success-message" id="success-message">
+      🎉 Congratulations! You have earned 20 bonus points!
+    </div>
+  </section>
+
+  <!-- Rewards Redemption Section -->
+  <section id="rewards">
+    <div class="container">
+      <h2>Your Rewards</h2>
+      <ul>
+        <li>100 Points – Free Ride Coupon</li>
+        <li>500 Points – 1 Free Ride for Orphanage Visit</li>
+        <li>1000 Points – Donor’s Wall of Fame</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Gamify Giving. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Function to handle the challenge completion and show success message
+    document.querySelector('#challenge-btn').addEventListener('click', function() {
+      // Show the success message
+      document.querySelector('#success-message').style.display = 'block';
+
+      // Optionally, hide the button after it's clicked to prevent repeated actions
+      document.querySelector('#challenge-btn').style.display = 'none';
+    });
+  </script>
+<!-- Razorpay Script -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+function openRazorpay() {
+    var amount = prompt("Enter the amount you wish to donate:");
+
+    if (amount && !isNaN(amount) && amount > 0) {
+        var options = {
+            "key": "rzp_test_sHK7gdx5j6vMC0", // Your Razorpay Test Key
+            "amount": amount * 100, // Razorpay takes amount in paisa
+            "currency": "INR",
+            "name": "GOKHUSH NGO",
+            "description": "Donation Payment",
+            "image": "your-logo-url.png",
+            "handler": function (response) {
+                alert("Payment Successful! Payment ID: " + response.razorpay_payment_id);
+            },
+            "prefill": {
+                "name": "",
+                "email": "",
+                "contact": ""
+            },
+            "theme": {
+                "color": "#28a745"
+            }
+        };
+
+        var rzp1 = new Razorpay(options);
+        rzp1.open();
+    } else {
+        alert("Please enter a valid amount.");
+    }
+}
+</script>
+
+
+</body>
+</html>
